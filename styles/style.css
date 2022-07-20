@@ -7,6 +7,7 @@
 @import "./componets/testimomials.css";
 @import "./componets/pricing.css";
 @import "./componets/cta.css";
+@import "./componets/footer.css";
 
 /* 
 
@@ -121,80 +122,109 @@ strong {
   outline-offset: 0.8rem;
 }
 
-/* ------------------- FOOTER -------------------*/
+/* ------------------------------ RESPONSIVE ------------------------------ */
+/* 1350 */
+@media (max-width: 84em) {
+  .sectionHero__titleH1 {
+    font-size: 4.4rem;
+  }
 
-.footerSection {
-  padding: 12.8rem 0;
-  border-top: 1px solid #eee;
+  .testimonialSection__container {
+    grid-template-columns: 70fr 30fr;
+  }
+  .testimonialSection__imageGridContainer {
+    grid-template-columns: 1fr 1fr;
+  }
 }
+/* 1200 */
+@media (max-width: 75em) {
+  html {
+    font-size: 56%;
+  }
 
-.footerSection__container {
-  display: grid;
-  grid-template-columns: 25fr 25fr 15fr 15fr 15fr;
-  gap: 3.2rem;
-}
+  .h2 {
+    font-size: 3.6rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+  }
 
-.footerSection__logoContainer {
-  display: flex;
-  flex-direction: column;
-}
+  .h3 {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+  }
 
-.footerSection__logo {
-  height: 2.4rem;
-  display: block;
-  margin-bottom: 3.4rem;
-}
+  .header__ulNav {
+    gap: 3.2rem;
+  }
 
-.footerSection__ulIcons {
-  list-style: none;
-  display: flex;
-  gap: 2.4rem;
-}
+  .sectionHero__container {
+    height: 80rem;
+  }
 
-.footerSection__icon {
-  color: #767676;
-  height: 2.4rem;
-  width: 2.4rem;
-}
-.footerSection__icon:hover {
-  color: #555;
-}
-
-.footerSection__headerFooter {
-  font-size: 1.8rem;
-  font-weight: 500;
-  margin-bottom: 4rem;
-  color: #555;
-}
-
-.footerSection__copyFooter--copyright {
-  font-size: 1.6rem;
-  margin-top: auto;
-  color: #767676;
-}
-
-.footerSection__nav {
-  list-style: none;
-}
-
-.footerSection__copyFooter {
-  font-style: normal;
-}
-.footerSection__addressFooter,
-.footerSection__nav {
-  display: flex;
-  flex-direction: column;
-  gap: 2.4rem;
+  .sectionHero__container {
+    gap: 4.8rem;
+  }
+  .pricingSection__featuresConatiner {
+    gap: 4.8rem;
+  }
+  .sectionHow__stepsContainer {
+    gap: 5.2rem;
+  }
+  .testimonialSection__textContentTestimonies {
+    padding: 4.8rem 3.2rem;
+  }
+  .testimonialSection__container {
+    grid-template-columns: 75fr 25fr;
+  }
+  .sectionHero__cta:link,
+  .sectionHero__cta:visited {
+    font-size: 1.8rem;
+  }
 }
 
-.footerSection__copyFooter,
-.footerSection__copyFooter a:link,
-.footerSection__copyFooter a:visited {
-  text-decoration: none;
-  font-size: 1.6rem;
-  color: #767676;
+/* 944 */
+@media (max-width: 58.75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .sectionHero__container {
+    height: auto;
+    grid-template-columns: 1fr;
+    padding-top: 12.8rem;
+    padding-bottom: 9.6rem;
+  }
+
+  .sectionHero__imageContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sectionHero__image {
+    width: 50%;
+  }
+
+  .mealsSection__cardText {
+    padding: 3.2rem;
+    padding-top: 1.6rem;
+  }
+
+  .mealsSection__meal--list {
+    padding: 0 2.4rem 2.4rem 2.4rem;
+  }
+  .mealsSection__listTittle {
+    font-size: 2.4rem;
+  }
 }
-.footerSection__copyFooter a:active,
-.footerSection__copyFooter a:hover {
-  color: #555;
+/* 600 */
+@media (max-width: 37.5em) {
 }
+
+/* 
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-  SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/

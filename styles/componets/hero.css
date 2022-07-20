@@ -5,7 +5,7 @@
 }
 
 .sectionHero__container {
-  height: 100vh;
+  height: 100rem;
 
   display: grid;
   grid-template-columns: 1fr 1fr;

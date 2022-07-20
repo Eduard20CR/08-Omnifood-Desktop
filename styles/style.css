@@ -1,0 +1,200 @@
+/* HERO */
+@import "./componets/nav.css ";
+@import "./componets/hero.css";
+@import "./componets/steps.css";
+@import "./componets/featured-in.css";
+@import "./componets/meals.css";
+@import "./componets/testimomials.css";
+@import "./componets/pricing.css";
+@import "./componets/cta.css";
+
+/* 
+
+------------ 01 TYPOGRAPHY SYSTEM ------------
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- FONT WEIGHT:
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+
+- LINE HEIGHT:
+Default: 1
+1.05
+1.6
+
+------------ 02 COLORS ------------
+
+- Primary: #e67e22
+
+- Tint: #fdf2e9
+#fae5d3
+
+- Shades: #cf711f
+
+- Accents:#51cf66
+
+- Greys:
+#555
+#333
+ 
+------------ 03 SHADOWS ------------
+
+------------ 04 BORDER RADIUS ------------
+
+Default: 0.9rem
+
+------------ 05 WHITE SPACE ------------
+
+-  SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.section {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.text-primary {
+  color: #e67e22 !important;
+}
+
+.h2,
+.h3 {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.h2 {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.h3 {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.subheader {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #cf711f;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+*:focus {
+  outline: #45260a 2px dotted;
+  outline-offset: 0.8rem;
+}
+
+/* ------------------- FOOTER -------------------*/
+
+.footerSection {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.footerSection__container {
+  display: grid;
+  grid-template-columns: 25fr 25fr 15fr 15fr 15fr;
+  gap: 3.2rem;
+}
+
+.footerSection__logoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerSection__logo {
+  height: 2.4rem;
+  display: block;
+  margin-bottom: 3.4rem;
+}
+
+.footerSection__ulIcons {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footerSection__icon {
+  color: #767676;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.footerSection__icon:hover {
+  color: #555;
+}
+
+.footerSection__headerFooter {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  color: #555;
+}
+
+.footerSection__copyFooter--copyright {
+  font-size: 1.6rem;
+  margin-top: auto;
+  color: #767676;
+}
+
+.footerSection__nav {
+  list-style: none;
+}
+
+.footerSection__copyFooter {
+  font-style: normal;
+}
+.footerSection__addressFooter,
+.footerSection__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footerSection__copyFooter,
+.footerSection__copyFooter a:link,
+.footerSection__copyFooter a:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+}
+.footerSection__copyFooter a:active,
+.footerSection__copyFooter a:hover {
+  color: #555;
+}

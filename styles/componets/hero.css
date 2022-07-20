@@ -1,0 +1,131 @@
+/* ------------------------HERO------------------------ */
+
+.sectionHero {
+  background-color: #fdf2e9;
+}
+
+.sectionHero__container {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+/* text */
+.sectionHero__textContainer {
+}
+
+.sectionHero__titleH1 {
+  color: #333;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+
+  margin-bottom: 3.2rem;
+}
+
+.sectionHero__description {
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 4.8rem;
+}
+
+.sectionHero__btnContainer {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 8rem;
+}
+/* btns */
+.sectionHero__cta:link,
+.sectionHero__cta:visited {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.sectionHero__cta--left:link,
+.sectionHero__cta--left:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+.sectionHero__cta--left:hover,
+.sectionHero__cta--left:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.sectionHero__cta--right:link,
+.sectionHero__cta--right:visited {
+  background-color: #fff;
+  color: #555;
+}
+.sectionHero__cta--right:hover,
+.sectionHero__cta--right:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+/* people */
+
+/*  */
+.sectionHero__peopleContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.sectionHero__pictureContainer {
+  display: flex;
+}
+
+.sectionHero__pic {
+  background-size: contain;
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 100%;
+  margin-left: -1.4rem;
+  border: 3px solid #fdf2e9;
+}
+
+.sectionHero__pic--pic1 {
+  background-image: url(./../../img/customers/customer-1.jpg);
+  margin-left: 0rem;
+}
+.sectionHero__pic--pic2 {
+  background-image: url(./../../img/customers/customer-2.jpg);
+}
+.sectionHero__pic--pic3 {
+  background-image: url(./../../img/customers/customer-3.jpg);
+}
+.sectionHero__pic--pic4 {
+  background-image: url(./../../img/customers/customer-4.jpg);
+}
+.sectionHero__pic--pic5 {
+  background-image: url(./../../img/customers/customer-5.jpg);
+}
+.sectionHero__pic--pic6 {
+  background-image: url(./../../img/customers/customer-6.jpg);
+}
+
+.sectionHero__copy {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.sectionHero__marked {
+  color: #cf711f;
+  font-weight: 700;
+}
+
+/* image */
+.sectionHero__image {
+  width: 100%;
+}

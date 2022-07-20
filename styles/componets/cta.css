@@ -1,0 +1,100 @@
+/* ------------------- CTA ------------------- */
+
+.ctaSection {
+  margin-bottom: 12.8rem;
+}
+
+.ctaSection__containerBg {
+  overflow: hidden;
+  background: rgb(230, 126, 34);
+  background-image: linear-gradient(45deg, #eb984e, #e67e22);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.9rem;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.ctaSection__engageContainer {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+h2.ctaSection__heading {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
+
+.ctaSection__copy {
+  color: #45260a;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.ctaSection__formContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.ctaSection__formControl {
+  display: flex;
+  flex-direction: column;
+}
+
+.ctaSection__formLabel {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #45260a;
+  margin-bottom: 1.2rem;
+}
+
+.ctaSection__formInput {
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  color: #45260a;
+  border-radius: 0.9rem;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.15);
+}
+
+.ctaSection__formInput::placeholder {
+  color: #aaa;
+}
+
+.ctaSection__formInput--select {
+}
+
+.ctaSection__formBtn {
+  border: none;
+  cursor: pointer;
+  background-color: #45260a;
+  color: #fdf2e9;
+  font-size: 1.8rem;
+  font-family: inherit;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 0.9rem;
+  padding: 0.9rem;
+  margin-top: auto;
+  transition: color 0.3s, background-color 0.3s;
+}
+.ctaSection__formBtn:hover {
+  color: #555;
+  background-color: #fdf2e9;
+}
+
+.ctaSection__imageContainer {
+  background-image: linear-gradient(
+      45deg,
+      rgba(235, 152, 78, 0.3),
+      rgba(230, 126, 34, 0.3)
+    ),
+    url("./../../img/eating.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

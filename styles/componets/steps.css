@@ -1,0 +1,90 @@
+.sectionHow {
+  /* padding-top: 9.6rem; */
+  padding-bottom: 12.8rem;
+}
+
+.sectionHow__containerHow {
+}
+
+/* heading */
+
+.sectionHow__copySectionDescription {
+}
+
+.sectionHow__heading {
+}
+
+.sectionHow__stepDescription {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+/* steps */
+.sectionHow__stepsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.sectionHow__step {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.sectionHow__stepDescriptionContiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionHow__step--right .sectionHow__stepDescriptionContiner {
+  order: 2;
+}
+
+.sectionHow__stepNumber {
+  font-size: 9.8rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.sectionHow__stepHeading {
+  margin-bottom: 1.2rem;
+}
+
+.sectionHow__stepImageContainer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+}
+.sectionHow__stepImageContainer::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fdf2e9;
+  border-radius: 100%;
+  width: 60%;
+  /* height: 30rem; */
+  padding-bottom: 60%;
+}
+.sectionHow__stepImageContainer::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fae5d3;
+  border-radius: 100%;
+  width: 45%;
+  /* height: 30rem; */
+  padding-bottom: 45%;
+}
+
+.sectionHow__stepImage {
+  width: 35%;
+  z-index: 100;
+}

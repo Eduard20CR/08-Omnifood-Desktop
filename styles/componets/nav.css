@@ -62,3 +62,20 @@
   background-color: #cf711f;
   color: #fff;
 }
+
+.headerContainer__mobileNavBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.9rem;
+
+  border: none;
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: #e67e22;
+  color: #fff;
+
+  cursor: pointer;
+
+  display: none;
+}

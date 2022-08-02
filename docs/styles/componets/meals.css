@@ -1,0 +1,146 @@
+/* -----------------------------------MEALS----------------------------------- */
+
+.mealsSection {
+  padding-bottom: 12.8rem;
+}
+
+.mealsSection__copySectionDescription,
+.mealsSection__heading {
+  text-align: center;
+}
+.mealsSection__mealsContainer {
+  display: grid;
+  gap: 2.2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 4.8rem;
+}
+
+.mealsSection__meal {
+  border-radius: 1.1rem;
+  overflow: hidden;
+}
+
+.mealsSection__meal--meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(50, 0, 50, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mealsSection__meal--meal:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 3.2rem 5rem rgba(50, 0, 50, 0.05);
+}
+
+.mealsSection__imageCard {
+  border-top-right-radius: 1.1rem;
+  border-top-left-radius: 1.1rem;
+  width: 100%;
+}
+
+.mealsSection__mealsCategoryContainer {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.mealsSection__cardText {
+  padding: 4.8rem;
+  padding-top: 3.2rem;
+}
+
+.mealsSection__mealsCategoryItem {
+  display: inline-block;
+
+  border-radius: 900px;
+  background-color: #51cf66;
+  color: #fdf2e9;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0.4rem 0.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.mealsSection__titleCard {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.mealsSection__ulCard {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.mealsSection__liCard {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.mealsSection__liIcon {
+  color: #cf711f;
+  font-size: 2.4rem;
+}
+
+/*  */
+.mealsSection__meal--list {
+  padding: 0 4.8rem 4.8rem 4.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mealsSection__listTittle {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #333;
+
+  margin-bottom: 2.4rem;
+}
+
+.mealsSection__ulList {
+  list-style: none;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1.8rem;
+}
+.mealsSection__listItem {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.mealsSection__listItem span {
+  font-size: 1.8rem;
+}
+
+.mealsSection__anchorContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.mealsSection__anchorItem:link,
+.mealsSection__anchorItem:visited {
+  display: inline-block;
+
+  padding-bottom: 0.4rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #e67e22;
+
+  border-bottom: 2px solid currentColor;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+.mealsSection__anchorItem:active,
+.mealsSection__anchorItem:hover {
+  color: #cf711f;
+  border-bottom: 2px solid transparent;
+}

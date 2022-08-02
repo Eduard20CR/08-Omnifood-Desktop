@@ -1,0 +1,67 @@
+/* --------------------------------------- testimonialSection --------------------------------------- */
+
+.testimonialSection {
+  margin-bottom: 12.8rem;
+  background-color: #fdf2e9;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+.testimonialSection__container {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  align-items: center;
+  max-width: 192rem;
+  margin: 0 auto;
+}
+
+.testimonialSection__textContentTestimonies {
+  padding: 9.6rem;
+}
+
+.testimonialSection__testimonialsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonialSection__testimonialPicture {
+  width: 64px;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonialSection__testimoniaBlockquote {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonialSection__testimoniaPerson {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.testimonialSection__imageGridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+.testimonialSection__figureContainer {
+  overflow: hidden;
+}
+
+.testimonialSection__imageGalleryItem {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s, filter 0.3s;
+  filter: brightness(0.8);
+}
+
+.testimonialSection__imageGalleryItem:hover {
+  transform: scale(1.2);
+  filter: brightness(1);
+}

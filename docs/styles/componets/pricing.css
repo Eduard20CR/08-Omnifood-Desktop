@@ -1,0 +1,182 @@
+/* ------------------------------- PRICING ------------------------------- */
+
+.pricingSection {
+  margin-bottom: 12.8rem;
+}
+
+.pricingSection__cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.pricingSection__cardItemPricing {
+  border-radius: 0.9rem;
+  padding: 4.8rem;
+  max-width: 75%;
+  width: 100%;
+  padding: 4.8rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.pricingSection__cardItemPricing--left {
+  justify-self: end;
+  border: 0.2rem solid #fdf2e9;
+  padding: 4.6rem;
+}
+.pricingSection__cardItemPricing--right {
+  position: relative;
+  justify-self: start;
+
+  background-color: #fdf2e9;
+  overflow: hidden;
+}
+
+.pricingSection__cardItemPricing--right::before {
+  content: "Best Value";
+  position: absolute;
+  display: flex;
+
+  top: 2.3rem;
+  right: -3.4rem;
+  transform: rotate(45deg);
+  padding: 0.6rem 3.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fdf2e9;
+  background-color: #cf711f;
+}
+
+.pricingSection__titleSection {
+  margin-bottom: 4.8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricingSection_planName {
+  color: #cf711f;
+  font-size: 2rem;
+  letter-spacing: 0.75;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.pricingSection_planPrice {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.2rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.pricingSection_planPrice span {
+  display: inline-block;
+
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.pricingSection_planText {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #6f6f6f;
+}
+
+.pricingSection__ulCard {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.pricingSection__liCard {
+  font-size: 1.8rem;
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.pricingSection__liIcon {
+  color: #cf711f;
+  font-size: 2.4rem;
+}
+
+.pricingSection__ctaCard:link,
+.pricingSection__ctaCard:visited {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+
+  background-color: #e67e22;
+  color: #fff;
+}
+.pricingSection__ctaCard:hover,
+.pricingSection__ctaCard:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.pricingSection__ctaContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.pricingSection__featuresConatiner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 9.6rem;
+}
+
+.pricingSection__featureItemContainer {
+}
+
+.pricingSection__featureIcon {
+  background: #fdf2e9;
+  color: #cf711f;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  padding: 1.6rem;
+  margin-bottom: 3.2rem;
+
+  display: inline-block;
+}
+
+.pricingSection__featureTittle {
+  color: #333;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.pricingSection__featureDescription {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.pricingSection__copyTaxesContainer {
+  display: grid;
+  place-items: center;
+  margin-bottom: 9.6rem;
+}
+.pricingSection__copyTaxes {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}

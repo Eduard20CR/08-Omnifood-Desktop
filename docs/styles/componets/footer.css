@@ -1,0 +1,75 @@
+.footerSection {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.footerSection__container {
+  display: grid;
+  grid-template-columns: 25fr 25fr 15fr 15fr 15fr;
+  gap: 3.2rem;
+}
+
+.footerSection__logoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerSection__logo {
+  height: 2.4rem;
+  display: block;
+  margin-bottom: 3.4rem;
+}
+
+.footerSection__ulIcons {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footerSection__icon {
+  color: #767676;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.footerSection__icon:hover {
+  color: #555;
+}
+
+.footerSection__headerFooter {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  color: #555;
+}
+
+.footerSection__copyFooter--copyright {
+  font-size: 1.6rem;
+  margin-top: auto;
+  color: #767676;
+}
+
+.footerSection__nav {
+  list-style: none;
+}
+
+.footerSection__copyFooter {
+  font-style: normal;
+}
+.footerSection__addressFooter,
+.footerSection__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footerSection__copyFooter,
+.footerSection__copyFooter a:link,
+.footerSection__copyFooter a:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+}
+.footerSection__copyFooter a:active,
+.footerSection__copyFooter a:hover {
+  color: #555;
+}

@@ -1,0 +1,86 @@
+.header {
+  background-color: #fdf2e9;
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+}
+
+.headerContainer {
+  height: 9.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* logo */
+
+.header__logo {
+  height: 2.4rem;
+}
+
+/* nav */
+
+.header__navContainer {
+}
+
+.header__ulNav {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.header__liNav {
+}
+
+.header__anchorNav:link,
+.header__anchorNav:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header__anchorNav:hover,
+.header__anchorNav:active {
+  color: #cf711f;
+}
+
+.header__anchorNav--cta:link,
+.header__anchorNav--cta:visited {
+  padding: 1.2rem 2.4rem;
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 0.9rem;
+}
+.header__anchorNav--cta:hover,
+.header__anchorNav--cta:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.headerContainer__mobileNavBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.9rem;
+
+  border: none;
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: #e67e22;
+  color: #fff;
+
+  cursor: pointer;
+
+  display: none;
+}
+
+.headerContainer__mobileNavIcon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
